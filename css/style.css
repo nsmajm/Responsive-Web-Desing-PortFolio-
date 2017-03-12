@@ -348,4 +348,12 @@
     .hero h1 { font-size: 4em; }    
 }
 
+/*===========loading pafe*/
 
+.pace-running .entire-content{
+    opacity: 0;
+}
+.pace-done .entire-content{
+    opacity: 1;
+    transition: all 2s ease-in;
+}
