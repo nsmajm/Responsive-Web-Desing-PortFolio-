@@ -1,0 +1,58 @@
+@media only screen and (max-width: 800px) {
+    .left_img img{
+       margin-left: 0px;
+        
+        display: none;
+    }
+    .right_header{
+    margin-top: 200px;
+    padding-left: 30px;
+    margin-bottom: 30px;
+}
+    .right_header h3{
+        font-size: 20px;
+    }
+    .fa-youtube-play{
+        margin-left: 140px;
+        margin-top: 225px;
+        background: cover;
+        
+    }
+    .bigcontent_left{
+        margin-top: -200px;
+        margin-left: 20px;
+    }
+    .bigcontent_left h2{
+        font-size: 30px;
+        
+    }
+    .download {
+        padding-bottom: 30px;
+    }
+  
+}
+@media only screen and (max-width: 500px) {
+    .twobtn {
+    margin-top: 30px;
+    font-family: lato;   
+}
+.pad{
+    padding-right: 10px;
+}
+.twobtn a{
+    text-decoration: none;
+    line-height: 24px;
+    font-size: 15px;
+    
+    
+}
+.apple ,.google{
+    border: 2px solid #fff;
+    border-radius: 50px;
+    text-decoration: none;
+    padding: 10px ;
+    color: #fff;
+    
+    
+}
+}

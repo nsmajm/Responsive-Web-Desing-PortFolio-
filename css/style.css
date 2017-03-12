@@ -1,0 +1,356 @@
+
+
+/*=====Navbar style========*/
+
+.navbar-default {
+    background-color: transparent;
+    border-width: 0px;
+    border-color: none;
+   
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+    background-color: transparent;
+    color: #ee3a68;
+    font-size: 20px;
+    font-style: normal;
+    font-family: halvetica;
+     border-bottom: 2px solid orange;
+}
+
+.navbar-default .navbar-nav>li>a{
+    color: #D3D3D3;
+    font-size: 20px;
+    font-family: halvetica;
+    font-size: normal;
+    
+}
+.navbar-default .navbar-nav>li>a:hover{
+    color: #ee3a68;
+    border-bottom: 2px solid orange;
+}
+
+.header-overlay{
+    background: rgba(0,0,0,.5);
+}
+.logo img{
+    height: 50px;
+    margin-top: -12px;
+}
+/*=============================content area=================================*/
+
+.contentarea{
+    height: auto;
+    padding-bottom: 70px;
+    background-color: #F8F8F8;
+    
+}
+.fixarea{
+    padding: 70px;
+   
+}
+.fixcolor{
+    background: #fff;
+    padding: 60px;
+     border:1px solid #DCDCDC; 
+      box-shadow:   0 0 3px rgba(0, 0, 0, 0.15)
+}
+ h4{
+   padding-left: 20px;
+     font-size: 24px;  
+}
+.fixicon p{
+    font-size: 20px;
+}
+.fa-check{
+    font-size: 50px;
+    text-align: center;
+    color: #ff5f83;
+    border:1px solid #DCDCDC;
+    padding: 25px;
+    margin-left: 20px;
+    border-radius: 50px;
+}
+.fa-check:hover{
+    color: #fff;
+    background: #ff5f83;
+}
+.check:hover .fixicon{
+      color: #fff;
+      background: #ff5f83;
+      -webkit-animation: shake 1s;
+     animation: shake 5s;      
+}
+
+.dimond:hover .fixicon{
+      color: #fff;
+      background: #ff5f83;
+    -webkit-animation: shake 1s;
+    
+     animation: shake 5s;    
+}
+.call:hover .fixicon{
+      color: #fff;
+      background: #ff5f83;
+     -webkit-animation: shake 1s;
+     animation: shake 5s;     
+}
+.location:hover .fixicon{
+      color: #fff;
+      background: #ff5f83;
+     -webkit-animation: shake 1s;
+     animation: shake 5s;  
+}
+/*==========big content==============*/
+
+.bigcontent{
+    padding-top: 50px;
+}
+.bigcontent_left{
+    padding-top: 235px;
+}
+.bigcontent_left h2{
+    font-size: 45px;
+    line-height: 50px;
+    color: #2a2b2f;
+    font-family: Lato;
+    font-weight: normal;
+    padding-bottom: 25px;
+}
+.bigcontent p{
+    font-family: lato;
+    font-size: 16px;
+    line-height: 25px;
+    font-weight: normal;
+    padding-bottom: 20px;
+}
+.download {
+    
+    
+    font-size: 25px;
+    font-family: lato;
+    
+}
+.download a{
+    text-decoration: none;
+    color: #2A2B2F;
+    padding: 10px 60px 10px 40px;
+    background: #e0e0e0;    
+}
+.download a:hover{
+    background-color: #ff5f83;
+    color: #fff;
+}
+/*=================sub content==============*/
+.divider{
+    width: 100%;
+    height: 1px;
+    background: #e0e0e0;
+}
+.bigcontentsub{
+    padding-top: 50px;
+}
+.bigsub_right{
+    padding-top: 150px;
+}
+.bigsub_right h3{
+    font-size: 45px;
+    line-height: 50px;
+    color: #2a2b2f;
+    font-family: Lato;
+    font-weight: normal;
+    padding-bottom: 25px;
+}
+.bigsub_right p{
+    font-family: lato;
+    font-size: 16px;
+    line-height: 25px;
+    font-weight: normal;
+    padding-bottom: 20px;
+}
+
+/*==============amazing text section==================*/
+#amazingFeature{
+    background: #F8F8F8;
+}
+.padd{
+    padding-top: 20px;
+}
+.amazingcontent{
+    padding: 40px;
+    background: #fff;
+    border:1px solid #DCDCDC; 
+    box-shadow:   0 0 3px rgba(0, 0, 0, 0.15)
+}
+
+.amazingfeatureText h3{
+    font-size: 30px;
+    line-height: 33px;
+}
+.amazingfeatureText p{
+    font-size: 16px;
+    line-height: 24px;   
+    
+}
+.textareapad{
+    padding-top: 20px;
+}
+.amazingcontent:hover .textarea{
+      color: #fff;
+      background: #ff5f83;
+     -webkit-animation: swing 1s;
+     animation: swing 5s;  
+}
+/*===============Video Player=============*/
+#videoPlayer{
+    padding-top: 50px;
+}
+.video_player{
+    background-image: url(../img/video-bg.jpg);
+    width: 100%;
+    height: auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.fa-youtube-play{
+    font-size: 50px;
+    margin-left: 600px;
+    margin-top: 200px;
+    margin-bottom: 200px;
+    padding: 30px;
+    color: #fff;
+    border-radius: 50%;
+    background: #ff5f83;
+    
+}
+
+/*=============================Slider Section====================*/
+
+/*
+Fade content bs-carousel with hero headers
+Code snippet by maridlcrmn (Follow me on Twitter @maridlcrmn) for Bootsnipp.com
+Image credits: unsplash.com
+*/
+
+/********************************/
+/*       Fade Bs-carousel       */
+/********************************/
+.fade-carousel {
+    position: relative;
+    height: 100vh;
+}
+.fade-carousel .carousel-inner .item {
+    height: 100vh;
+}
+.fade-carousel .carousel-indicators > li {
+    margin: 0 2px;
+    background-color: #f39c12;
+    border-color: #f39c12;
+    opacity: .7;
+}
+.fade-carousel .carousel-indicators > li.active {
+  width: 10px;
+  height: 10px;
+  opacity: 1;
+}
+
+/********************************/
+/*          Hero Headers        */
+/********************************/
+.hero {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 3;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 0 rgba(0,0,0,.75);
+      -webkit-transform: translate3d(-50%,-50%,0);
+         -moz-transform: translate3d(-50%,-50%,0);
+          -ms-transform: translate3d(-50%,-50%,0);
+           -o-transform: translate3d(-50%,-50%,0);
+              transform: translate3d(-50%,-50%,0);
+}
+.hero h1 {
+    font-size: 6em;    
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+}
+
+.fade-carousel .carousel-inner .item .hero {
+    opacity: 0;
+    -webkit-transition: 2s all ease-in-out .1s;
+       -moz-transition: 2s all ease-in-out .1s; 
+        -ms-transition: 2s all ease-in-out .1s; 
+         -o-transition: 2s all ease-in-out .1s; 
+            transition: 2s all ease-in-out .1s; 
+}
+.fade-carousel .carousel-inner .item.active .hero {
+    opacity: 1;
+    -webkit-transition: 2s all ease-in-out .1s;
+       -moz-transition: 2s all ease-in-out .1s; 
+        -ms-transition: 2s all ease-in-out .1s; 
+         -o-transition: 2s all ease-in-out .1s; 
+            transition: 2s all ease-in-out .1s;    
+}
+
+/********************************/
+/*            Overlay           */
+/********************************/
+.overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    background-color: #080d15;
+    opacity: .5;
+    background: rgba(0,0,0,.5);
+}
+
+/********************************/
+/*          Custom Buttons      */
+/********************************/
+.btn.btn-lg {padding: 10px 40px;}
+.btn.btn-hero,
+.btn.btn-hero:hover,
+.btn.btn-hero:focus {
+    color: #f5f5f5;
+    background-color: #1abc9c;
+    border-color: #1abc9c;
+    outline: none;
+    margin: 20px auto;
+}
+
+/********************************/
+/*       Slides backgrounds     */
+/********************************/
+.fade-carousel .slides .slide-1, 
+.fade-carousel .slides .slide-2,
+.fade-carousel .slides .slide-3 {
+  height: 100vh;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+.fade-carousel .slides .slide-1 {
+  background-image: url(../img/slider1.png);
+}
+.fade-carousel .slides .slide-2 {
+   background-image: url(../img/slider2.png);
+}
+.fade-carousel .slides .slide-3 {
+    background-image: url(../img/slider3.png);
+}
+
+/********************************/
+/*          Media Queries       */
+/********************************/
+@media screen and (min-width: 980px){
+    .hero { width: 980px; }    
+}
+@media screen and (max-width: 640px){
+    .hero h1 { font-size: 4em; }    
+}
+
+
