@@ -225,11 +225,6 @@
 
 /*=============================Slider Section====================*/
 
-/*
-Fade content bs-carousel with hero headers
-Code snippet by maridlcrmn (Follow me on Twitter @maridlcrmn) for Bootsnipp.com
-Image credits: unsplash.com
-*/
 
 /********************************/
 /*       Fade Bs-carousel       */
@@ -254,7 +249,7 @@ Image credits: unsplash.com
 }
 
 /********************************/
-/*          Hero Headers        */
+/*          Sider Headers        */
 /********************************/
 .hero {
     position: absolute;
