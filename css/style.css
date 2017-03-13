@@ -360,3 +360,85 @@
     opacity: 1;
     transition: all 2s ease-in;
 }
+/*================contact Us section================*/
+.contactus{
+    background-image: url(../img/contact-bg.jpg);
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-attachment: fixed;
+    background:rgba(0,0,0,0,1);
+    
+}
+
+.contactus h1{
+    text-align: center;
+    padding-bottom: 10px;
+    font-family: Raleway;
+    font-size: 50px;
+    font-weight: bolder;
+    color: #fff;
+    
+}
+input#inputmail,input#inputname,input#inputphoneNumber{
+    height: 50px;
+    font-size: 18px;
+    font-family: sans-serif;
+    background-color: #FCFCFC;
+    border-radius: 0px;
+}
+input#inputmessage {
+    height: 139px;
+    font-size: 18px;
+    font-family: sans-serif;
+    text-align: left;
+    display: inline-block;
+}
+input#inputsubmit{
+    width: 30%;
+    height: 5%;
+    font-family: monospace;
+    font-size: 20px;
+    background-color: #015D8E;
+    color: white;
+}
+input#inputsubmit:hover{
+   background-color: #11b6f7;
+    transition: all .5s ease-in;
+}
+.right_contact_text{
+    width: 50%;
+    height: auto;
+}
+
+.right_contact_text h5{
+    margin-top: 90px;
+    background: #5c5c5c;
+    color: #000;
+    font-family: Railway;
+    font-size: 18px;
+    line-height: 40px;
+}
+/*===================Foooter ===================*/
+.footercontent{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #000;
+    color: #fff;
+}
+.footercontent p{
+    text-align: center;
+}
+.footercontent a{
+    text-decoration: none;
+    color: #5c5c5c;
+    
+}
+.name{
+    color: #5c5c5c;
+}
+
+
+
+
+
+
