@@ -402,21 +402,18 @@ input#inputsubmit{
     color: white;
 }
 input#inputsubmit:hover{
-   background-color: #11b6f7;
+     background-color: #11b6f7;
     transition: all .5s ease-in;
 }
 .right_contact_text{
-    width: 50%;
-    height: auto;
+      padding-top: 100px;
 }
 
-.right_contact_text h5{
-    margin-top: 90px;
-    background: #5c5c5c;
-    color: #000;
-    font-family: Railway;
-    font-size: 18px;
-    line-height: 40px;
+.right_contact_text ul li{
+      float: left;
+    list-style: none;
+    text-decoration: none;
+  
 }
 /*===================Foooter ===================*/
 .footercontent{
@@ -437,7 +434,19 @@ input#inputsubmit:hover{
     color: #5c5c5c;
 }
 
+.hb-twitter:hover {
+      -webkit-animation: shake 1s;
+}
 
+.hb-linkedin:hover{
+    -webkit-animation: shake 1s;
+}
+.hb-facebook:hover{
+    -webkit-animation: shake 1s;
+}
+.hb-google-plus:hover{
+    -webkit-animation: shake 1s;
+}
 
 
 
