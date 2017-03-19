@@ -29,6 +29,27 @@
     .download {
         padding-bottom: 30px;
     }
+    .fixarea{
+    padding: 30px;
+   
+}
+    h4{
+        font-size: 16px;
+        padding-left: 10px;
+        font-weight: bolder;
+    
+    }
+    .bigsub_right h3{
+        font-size: 20px;
+        font-weight: bold;
+    }
+    h3{
+        font-size: 20px;
+    }
+    .fa-check{
+        font-size: 40px;
+    }
+
   
 }
 @media only screen and (max-width: 500px) {
@@ -78,6 +99,51 @@
 }
 
 
+@media only screen and (max-width: 380px) {
+    .twobtn {
+    margin-top: 30px;
+    font-family: lato;   
+}
+.pad{
+    padding-right: 10px;
+}
+.twobtn a{
+    text-decoration: none;
+    line-height: 24px;
+    font-size: 15px;
+    
+    
+}
+.apple ,.google{
+    border: 2px solid #fff;
+    border-radius: 50px;
+    text-decoration: none;
+    padding: 10px ;
+    color: #fff;
+    
+    
+}
+.fixarea{
+    padding: 30px;
+   
+}
+    h4{
+        font-size: 16px;
+        padding-left: 10px;
+        font-weight: bolder;
+    
+    }
+    .bigsub_right h3{
+        font-size: 20px;
+        font-weight: bold;
+    }
+    h3{
+        font-size: 20px;
+    }
+    .fa-check{
+        font-size: 40px;
+    }
+}
 
 
 
