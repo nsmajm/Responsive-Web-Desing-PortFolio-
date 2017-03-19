@@ -55,6 +55,26 @@
     
     
 }
+.fixarea{
+    padding: 30px;
+   
+}
+    h4{
+        font-size: 16px;
+        padding-left: 10px;
+        font-weight: bolder;
+    
+    }
+    .bigsub_right h3{
+        font-size: 20px;
+        font-weight: bold;
+    }
+    h3{
+        font-size: 20px;
+    }
+    .fa-check{
+        font-size: 40px;
+    }
 }
 
 
